@@ -32,34 +32,7 @@ Celatlas Omniverse is a comprehensive, modular Nextflow pipeline for spatial tra
 
 #### Step 1: Install R (4.5.1 recommended)
 
-**Ubuntu/Debian:**
-```bash
-# Add CRAN repository
-sudo apt-get update
-sudo apt-get install -y software-properties-common dirmngr
-wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
-sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
-
-# Install R and development tools
-sudo apt-get update
-sudo apt-get install -y r-base r-base-dev build-essential
-sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev
-```
-
-**CentOS/RHEL:**
-```bash
-sudo yum install -y epel-release
-sudo yum install -y R R-devel
-sudo yum groupinstall -y "Development Tools"
-sudo yum install -y libcurl-devel openssl-devel libxml2-devel
-```
-
-**macOS:**
-```bash
-# Install via Homebrew
-brew install r
-# Or download from: https://cran.r-project.org/bin/macosx/
-```
+Install R 4.5.1 following the instructions for your operating system at https://cran.r-project.org/
 
 #### Step 2: Install Java (for Nextflow)
 
