@@ -13,7 +13,7 @@
 
 ## Overview
 
-Celatlas Omniverse is a comprehensive, modular Nextflow pipeline for spatial transcriptomics data analysis. It provides end-to-end analysis from raw 10X Visium data to publication-ready reports with interactive visualizations.
+Celatlas Omniverse is a comprehensive, modular Nextflow pipeline for spatial transcriptomics data analysis. It provides end-to-end analysis from raw celatlas_spatial or 10X Visium data to publication-ready reports with interactive visualizations.
 
 ### Key Features
 
