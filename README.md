@@ -287,7 +287,7 @@ nextflow run main.nf -c config.config -resume
    ```
 
 3. **Input Data Issues**
-   - Verify 10X Visium data structure
+   - Verify data structure
    - Check file permissions
    - Ensure files are not corrupted
 
